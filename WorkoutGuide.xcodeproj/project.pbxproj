@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83FBA27C1FEF632E006F5A7B /* MoreWorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBA27B1FEF632E006F5A7B /* MoreWorkoutsViewController.swift */; };
 		83FC28FC1FEABF53000C3393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC28FB1FEABF53000C3393 /* AppDelegate.swift */; };
 		83FC28FE1FEABF53000C3393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC28FD1FEABF53000C3393 /* ViewController.swift */; };
-		83FC29011FEABF53000C3393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FC28FF1FEABF53000C3393 /* Main.storyboard */; };
+		83FC29011FEABF53000C3393 /* WorkoutGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FC28FF1FEABF53000C3393 /* WorkoutGuide.storyboard */; };
 		83FC29031FEABF53000C3393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FC29021FEABF53000C3393 /* Assets.xcassets */; };
 		83FC29061FEABF53000C3393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FC29041FEABF53000C3393 /* LaunchScreen.storyboard */; };
+		83FC290E1FEAD488000C3393 /* Workouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83FC290D1FEAD488000C3393 /* Workouts.plist */; };
+		83FC29101FEAD96F000C3393 /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC290F1FEAD96F000C3393 /* WorkoutsViewController.swift */; };
+		83FC29121FEAEA74000C3393 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC29111FEAEA74000C3393 /* CustomButton.swift */; };
+		83FE82B41FEEBE830096CF03 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE82B31FEEBE830096CF03 /* DetailsViewController.swift */; };
+		83FE82B61FEEC72A0096CF03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE82B51FEEC72A0096CF03 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83FBA27B1FEF632E006F5A7B /* MoreWorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreWorkoutsViewController.swift; sourceTree = "<group>"; };
 		83FC28F81FEABF53000C3393 /* WorkoutGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FC28FB1FEABF53000C3393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83FC28FD1FEABF53000C3393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83FC29001FEABF53000C3393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83FC29001FEABF53000C3393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WorkoutGuide.storyboard; sourceTree = "<group>"; };
 		83FC29021FEABF53000C3393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83FC29051FEABF53000C3393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83FC29071FEABF53000C3393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FC290D1FEAD488000C3393 /* Workouts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Workouts.plist; sourceTree = "<group>"; };
+		83FC290F1FEAD96F000C3393 /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		83FC29111FEAEA74000C3393 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		83FE82B31FEEBE830096CF03 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		83FE82B51FEEC72A0096CF03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				83FC28FB1FEABF53000C3393 /* AppDelegate.swift */,
 				83FC28FD1FEABF53000C3393 /* ViewController.swift */,
-				83FC28FF1FEABF53000C3393 /* Main.storyboard */,
+				83FC290F1FEAD96F000C3393 /* WorkoutsViewController.swift */,
+				83FE82B31FEEBE830096CF03 /* DetailsViewController.swift */,
+				83FC29111FEAEA74000C3393 /* CustomButton.swift */,
+				83FBA27B1FEF632E006F5A7B /* MoreWorkoutsViewController.swift */,
+				83FC28FF1FEABF53000C3393 /* WorkoutGuide.storyboard */,
 				83FC29021FEABF53000C3393 /* Assets.xcassets */,
 				83FC29041FEABF53000C3393 /* LaunchScreen.storyboard */,
 				83FC29071FEABF53000C3393 /* Info.plist */,
+				83FC290D1FEAD488000C3393 /* Workouts.plist */,
+				83FE82B51FEEC72A0096CF03 /* Constants.swift */,
 			);
 			path = WorkoutGuide;
 			sourceTree = "<group>";
@@ -125,7 +143,8 @@
 			files = (
 				83FC29061FEABF53000C3393 /* LaunchScreen.storyboard in Resources */,
 				83FC29031FEABF53000C3393 /* Assets.xcassets in Resources */,
-				83FC29011FEABF53000C3393 /* Main.storyboard in Resources */,
+				83FC290E1FEAD488000C3393 /* Workouts.plist in Resources */,
+				83FC29011FEABF53000C3393 /* WorkoutGuide.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,20 +155,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FBA27C1FEF632E006F5A7B /* MoreWorkoutsViewController.swift in Sources */,
+				83FC29121FEAEA74000C3393 /* CustomButton.swift in Sources */,
 				83FC28FE1FEABF53000C3393 /* ViewController.swift in Sources */,
 				83FC28FC1FEABF53000C3393 /* AppDelegate.swift in Sources */,
+				83FC29101FEAD96F000C3393 /* WorkoutsViewController.swift in Sources */,
+				83FE82B41FEEBE830096CF03 /* DetailsViewController.swift in Sources */,
+				83FE82B61FEEC72A0096CF03 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83FC28FF1FEABF53000C3393 /* Main.storyboard */ = {
+		83FC28FF1FEABF53000C3393 /* WorkoutGuide.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				83FC29001FEABF53000C3393 /* Base */,
 			);
-			name = Main.storyboard;
+			name = WorkoutGuide.storyboard;
 			sourceTree = "<group>";
 		};
 		83FC29041FEABF53000C3393 /* LaunchScreen.storyboard */ = {
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YB79HE4S;
 				INFOPLIST_FILE = WorkoutGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tech-in.WorkoutGuide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YB79HE4S;
 				INFOPLIST_FILE = WorkoutGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tech-in.WorkoutGuide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
